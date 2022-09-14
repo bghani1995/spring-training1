@@ -5,7 +5,7 @@ import com.cydeo.loosely_coupled.monitorfactory.Monitor;
 import com.cydeo.loosely_coupled.motherboardfactory.Motherboard;
 
 
-public class PC {
+public class  PC {
 
     private Case theCase;
     private Monitor monitor;
