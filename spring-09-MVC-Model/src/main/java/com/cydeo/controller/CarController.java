@@ -15,4 +15,12 @@ public class CarController {
 
         return "car/car-info";
     }
+//Default
+    @RequestMapping("/info2")
+    public String carInfo2(@RequestParam(value = "make", required = false,defaultValue = "KIA") String make, Model model){
+
+        model.addAttribute("make", make);
+
+        return "car/car-info";
+    }
 }
